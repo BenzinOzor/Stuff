@@ -65,8 +65,6 @@ start
 			return true;
 		}
 	}
-
-	return false;
 }
 
 split
@@ -91,8 +89,6 @@ split
 			return true;
 		}
 	}
-
-	return false;
 }
 
 isLoading
@@ -109,6 +105,7 @@ isLoading
 		if(current.igt == old.igt){
 			return true;
 		}
+		return false;
 	}
 
 	// Settings for GFWL
@@ -117,8 +114,6 @@ isLoading
 			return true;
 		}
 	}
-
-	return false;
 }
 
 gameTime
